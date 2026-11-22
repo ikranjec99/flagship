@@ -44,6 +44,15 @@ ScaffoldingReadMe.txt
 *~
 CodeCoverage/
 
+# Frontend
+node_modules/
+frontend/dist/
+Flagship/Flagship.API/wwwroot/
+
+# Local tooling
+.idea/
+.vscode/
+
 # MSBuild Binary and Structured Log
 *.binlog
 
