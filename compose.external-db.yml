@@ -1,0 +1,13 @@
+name: flagship
+
+services:
+  flagship:
+    build:
+      context: .
+    restart: unless-stopped
+    ports:
+      - "${FLAGSHIP_PORT:-8080}:8080"
+    environment:
+      ConnectionStrings__Flagship: ${FLAGSHIP_DB_CONNECTION_STRING:?Set FLAGSHIP_DB_CONNECTION_STRING in .env}
+      Flagship__Admin__Email: ${FLAGSHIP_ADMIN_EMAIL:-admin@flagship.local}
+      Flagship__Admin__Password: ${FLAGSHIP_ADMIN_PASSWORD}

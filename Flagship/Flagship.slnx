@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Flagship.API/Flagship.API.csproj" />
+  <Project Path="Flagship.Core/Flagship.Core.csproj" />
+  <Project Path="Flagship.Tests/Flagship.Tests.csproj" />
+</Solution>
