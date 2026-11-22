@@ -21,7 +21,7 @@ export function AppShell({ children, onSignedOut }: { children: ReactNode; onSig
   return (
     <div className="app-shell">
       <aside className="sidebar">
-        <div className="brand"><span className="brand-mark">F</span><span>Flagship</span></div>
+        <div className="brand"><img className="brand-mark" src="/flagship-logo.svg" alt="" /><span>Flagship</span></div>
 
         <label className="field-label" htmlFor="project">Project</label>
         <select

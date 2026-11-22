@@ -1,10 +1,30 @@
-# Flagship
+<p align="center">
+  <img src="frontend/public/flagship-logo.svg" width="96" height="96" alt="Flagship logo" />
+</p>
 
-Flagship is a lightweight, self-hosted feature flag management platform for developers and small teams. It separates deployments from releases without requiring an external SaaS service or an operations stack beyond PostgreSQL.
+<h1 align="center">Flagship</h1>
+
+<p align="center">
+  <strong>Release features with control, not crossed fingers.</strong>
+</p>
+
+<p align="center">
+  A lightweight, self-hosted feature management platform for teams that want safer releases<br />
+  without handing control to another SaaS product or operating a complex infrastructure stack.
+</p>
+
+Flagship gives developers one place to manage feature flags across environments, target specific users, perform deterministic percentage rollouts, and understand exactly why a flag evaluated the way it did. It runs on a focused .NET, React, and PostgreSQL stack and is designed to be simple enough for a small team to own.
 
 > Flagship is under active MVP development. The evaluation contract and database migrations are not yet considered stable.
 
-## What works
+## Why Flagship
+
+- **Decouple deployment from release.** Ship code safely, then expose functionality when you are ready.
+- **Reduce rollout risk.** Target known audiences, increase exposure gradually, and disable a feature without redeploying.
+- **Keep operational ownership.** Run the entire platform yourself with Docker Compose and PostgreSQL.
+- **Make decisions explainable.** Inspect evaluation reasons and retain an append-only history of configuration changes.
+
+## Current capabilities
 
 - Multiple projects and environments
 - Boolean feature flags with immutable keys

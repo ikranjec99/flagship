@@ -64,3 +64,6 @@ Flagship/Flagship.API/wwwroot/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+.dotnet/
+.vscode/
