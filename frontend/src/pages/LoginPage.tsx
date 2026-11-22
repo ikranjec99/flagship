@@ -27,7 +27,7 @@ export function LoginPage({ onAuthenticated }: { onAuthenticated: () => void }) 
   return (
     <div className="auth-layout">
       <section className="auth-panel">
-        <div className="brand auth-brand"><span className="brand-mark">F</span><span>Flagship</span></div>
+        <div className="brand auth-brand"><img className="brand-mark" src="/flagship-logo.svg" alt="" /><span>Flagship</span></div>
         <div className="auth-copy">
           <span className="eyebrow">SELF-HOSTED FEATURE MANAGEMENT</span>
           <h1>Release with control,<br />not crossed fingers.</h1>

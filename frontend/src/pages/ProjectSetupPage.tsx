@@ -19,7 +19,7 @@ export function ProjectSetupPage({ onCreated }: { onCreated: () => Promise<void>
   return (
     <div className="setup-layout">
       <form className="setup-card" onSubmit={(event) => void submit(event)}>
-        <div className="brand"><span className="brand-mark">F</span><span>Flagship</span></div>
+        <div className="brand"><img className="brand-mark" src="/flagship-logo.svg" alt="" /><span>Flagship</span></div>
         <span className="eyebrow">FIRST PROJECT</span>
         <h1>What are you shipping?</h1>
         <p>We will create development, staging, and production environments to get you started.</p>
